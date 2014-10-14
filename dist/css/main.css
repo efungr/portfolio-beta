@@ -1,0 +1,485 @@
+.container {
+	width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+p {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+	margin: 10px;
+}
+
+
+/*///////////////////// Top Nav Bar Style ////////////////////*/
+
+
+.toplinks  {
+	text-decoration: none;
+    font-family: 'Futura Medium Condensed BT' sans-serif;
+    font-size: 16px;
+    overflow: visible;
+}
+
+.navcentermobile{
+    width: 144px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: 10px auto 76px auto;
+}
+
+
+.navtop {
+    width: 100%;
+    height: 72px;
+    
+ -webkit-border-bottom: black 2px solid;
+	-moz-border-bottom: black 2px solid;
+		 border-bottom: black 2px solid;
+}
+
+/*
+.navleft active{
+    display: block;
+    
+}
+*/
+
+.navleft{
+    width: 100%;
+    float: left;
+     display: none;
+    
+}
+
+
+.navleftmenu{
+	margin: 0;
+}
+
+
+.navleft ul a{
+    text-align: center;
+    width: 100%;
+	margin: 0;
+	
+}
+
+.navleft li{
+	padding: 8px 0;
+}
+
+.navcenter {
+	display: none;
+}
+
+.navcenter img {
+	display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*
+
+.navright active{
+    display: block;
+
+    
+}
+*/
+
+.navright{
+    width: 100%;
+	float: right;
+     display: none; 
+    margin-bottom: 75px;
+
+ -webkit-border-bottom: black 2px solid;
+	-moz-border-bottom: black 2px solid;
+		 border-bottom: black 2px solid;
+    
+}
+
+.navrightmenu{
+	margin: 0;
+}
+
+.navright ul a{
+    text-align: center;
+    width: 100%;
+}
+
+.navright li{
+	padding: 8px 0;
+
+}
+
+
+
+/*///////////////////   Main Body   //////////////////////*/
+
+
+
+article {
+	height: 200px;
+}
+
+
+.title {
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 70pt;
+    margin-top: 150px;
+    margin-bottom: 0;
+    padding: 0 6%;
+	text-align: center;
+}
+
+.subtitle {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 40pt;
+    margin-top: -5%;
+    margin-bottom: 0;
+	text-align: center;
+}
+
+.titlesubtext {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12pt;
+	margin: 10%;
+	text-align: center;
+}
+
+
+.latestworktitle{
+	font-family: sans-serif;
+	font-size: 20pt;
+    padding: 0 35px 20px 2%;
+    margin-bottom:0px;
+    display: inline-block;
+    
+
+}
+
+.latestworkbox {
+    width:100%;
+    
+ -webkit-border-bottom: black 2px solid;
+	-moz-border-bottom: black 2px solid;
+		 border-bottom: black 2px solid;
+    
+}
+
+.grid-three-fourths, .latestprojectpic{
+	float: right;
+}
+
+.latestwork .row {
+	padding: 0 2%;
+}
+
+.latestprojectpic{
+    float:left;
+    display: inline-block;
+    width: 100%;
+    margin-top: 3%;
+    padding: 0 1%;
+    clear: right;
+}
+
+.projectname{
+    display: inline-block;
+    padding-top: 30px;
+    width: 106%;
+    margin-bottom: 50px;
+    
+}
+
+.projectdescrip {
+    display: inline-block;
+    clear: left;
+    margin:2%;   
+    
+}
+
+
+/*?////////////////////// About Me //////////////////////////*/
+
+.aboutmemain{
+	margin-top: 180px;
+}
+
+.aboutmephoto{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.aboutmetitle{
+	display: inline-block;
+	padding-top: 0;
+
+}
+
+.aboutmetext{
+	display: inline-block;
+}
+
+
+/*//////////////////////  Footer  /////////////////////////*/
+
+
+footer{
+    float: left;
+    width: 100%;
+    margin-top:40px;
+    
+ -webkit-border-top: black 2px solid;
+	-moz-border-top: black 2px solid;
+		 border-top: black 2px solid;
+}
+
+.bottomnavmenu ul{
+    height: 100px;
+    width: 100%;
+	float: left;
+    display: block;
+    margin-top: 20px;
+    margin-left: 2%;
+    
+}
+
+.bottomnavmenu ul a {
+    width: 100%;
+    text-align: center;
+	float: none;
+}
+
+.bottomnavmenu li{
+	padding: 8px 0;
+
+}
+
+
+/*///////////////////  Media Queries  ////////////////////////*/
+
+
+@media (min-width: 700px){
+
+
+           /*///////////////////// Top Nav Bar Style ////////////////////*/
+
+    .container {
+		width: 88%;
+		
+	}
+
+	.toplinks {
+		font-size: 18px;
+	}
+	
+	.navtop {
+    width: 100%;
+    height: 115px;
+    
+ -webkit-border-bottom: black 2px solid;
+	-moz-border-bottom: black 2px solid;
+		 border-bottom: black 2px solid;
+}
+
+
+
+	.navleft{
+    	width: 38%;
+		height: 100%;
+		float: left;
+		display: block;
+		margin-top: 46px;
+	}
+
+
+	.navleftmenu{
+		margin:0;
+	}
+
+
+	.navleft ul a{
+    	text-align: center;
+		width: 50%;
+		float: left;
+		margin: 0;
+	}
+	
+	.navleft li{
+		padding: 0;
+	
+	}
+
+	.navcentermobile {
+		display: none;
+	}
+
+	.navcenter {
+		width: 144px;
+		height: 0;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.navcenter img {
+		display: inline-block;
+    	text-align: center;
+		margin-top: 40px;
+	}
+
+	.navright{
+    	width: 38%;
+		height: 100%;
+		float: right;
+		display: block;
+		margin-top: 46px;
+		margin-bottom: 0;
+
+ -webkit-border-bottom: none;
+	-moz-border-bottom: none;
+		 border-bottom: none;
+	}
+
+	.navrightmenu{
+		margin: 0;
+		
+	}
+
+	.navright ul a{
+    	text-align: center;
+		width: 50%;
+		float: left;
+	}
+	
+	.navright li{
+		padding: 0;
+
+	}
+	
+           /*///////////////////   Main Body   //////////////////////*/
+
+    .latestworktitle{
+		font-family: sans-serif;
+		font-size: 20pt;
+	    padding: 0 35px 20px 0;
+	    margin-bottom:0px;
+	    display: inline-block;
+	    
+	
+	}
+
+
+	.latestwork .row {
+		padding: 0;
+	}
+
+
+	.latestworktitle{
+		font-family: sans-serif;
+		font-size: 20pt;
+		padding: 0 35px 20px 0;
+		margin-bottom:0px;
+		display: inline-block;
+    
+ -webkit-border-right: black 2px solid;
+	-moz-border-right: black 2px solid;
+		 border-right: black 2px solid;
+
+	}
+
+	.projectname{
+    	display: inline-block;
+		padding-top: 30px;
+		width: 106%;
+		margin-bottom: 50px;
+    
+     -webkit-border-right: black 2px solid;
+	    -moz-border-right: black 2px solid;
+		     border-right: black 2px solid;
+	}
+
+
+
+
+}
+
+         /*///////////////////// End 700px Media ////////////////////*/
+
+
+@media (min-width: 925px){
+
+         /*///////////////////// Top Nav Bar Style ////////////////////*/
+
+.navleft{
+    	width: 41%;
+    	display: block!important;
+	}
+
+
+
+	.navright{
+    	width: 41%;
+    	display: block!important;
+
+
+	}
+
+}
+
+         /*///////////////////// End 925px Media ////////////////////*/
+
+@media (min-width: 1200px){
+	
+         /*///////////////////// Top Nav Bar Style ////////////////////*/
+
+	.toplinks {
+		font-size: 25px;
+	}
+	
+	.navleft{
+    	width: 43%;
+	}
+
+
+	.navcenter {
+		float: left;
+		height: 100%;
+		
+	}
+
+
+	.navright{
+    	width: 43%;
+		float: left;
+
+	}
+	
+	/*//////////////////////  Footer  /////////////////////////*/
+
+	
+	.bottomnavmenu ul{
+	    height: 100px;
+	    width: 100%;
+		float: left;
+	    display: block;
+	    margin-top: 20px;
+	    margin-left: 2%;
+	    
+	}
+	
+	.bottomnavmenu ul a {
+	    width: 25%;
+	    text-align: center;
+		float: left;
+	}
+}
+
+         /*///////////////////// End 1200px Media ////////////////////*/
