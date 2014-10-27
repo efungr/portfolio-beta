@@ -12,7 +12,7 @@ p {
 }
 
 a:hover img {
-  opacity: none;
+  opacity: none !important;
   }
   
 /*///////////////////// Top Nav Bar Style ////////////////////*/
