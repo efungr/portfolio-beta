@@ -238,8 +238,8 @@ a img {
 a:hover img {
   border: none;
   background: none;
-  opacity: 0.8;
-  filter: alpha(opacity=80); }
+  /*opacity: 0.8;
+  filter: alpha(opacity=80); /*/}
 
 /*  Lists
  *  Styling for lists */
@@ -611,7 +611,7 @@ input[type="file"]:focus, input[type="checkbox"]:focus, select:focus {
   /*  Displayed as a table header row group */
   /*  Avoid inserting a page break inside table rows and images */
   * {
-    
+    background: transparent !important;
     color: #000 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
