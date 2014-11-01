@@ -219,7 +219,7 @@ article {
 /*?////////////////////// About Me //////////////////////////*/
 
 .aboutmemain{
-	margin-top: 180px;
+	padding-top: 150px;
 }
 
 .aboutmephoto{
@@ -244,7 +244,7 @@ article {
 /*///////////////////Work///////////////////////*/
 
 .mainwork{
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 /*//////////////////////  Footer  /////////////////////////*/
