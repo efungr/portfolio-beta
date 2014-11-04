@@ -6,5 +6,5 @@ baseurl: "/portfolio"
 permalink: none
 
 collections:
-    portfolio:
+    work:
         output: true
