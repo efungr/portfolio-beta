@@ -34,7 +34,7 @@ title: homepage
                         </div>
                         <div class="row">
                             <div class="morework">
-                            	{% for portfolio in site.portfolio limit:3  %}
+                            	{% for portfolio in site.portfolio limit:4  %}
                                 <div class="grid-fourth">
                                     <a href="{{site.url}}{{portfolio.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
 									<h4>
@@ -42,6 +42,9 @@ title: homepage
                         			</h4>
                         			<p>{{portfolio.subtitle}}</p>
                                 </div>
+                                
+                                {% endfor  %}
+                                
                                /* <div class="grid-fourth">
                                     <img class="indexworksmall" src="http://fpoimg.com/340x490">
                                      <h4>Project Name 2</h4>
@@ -54,6 +57,7 @@ title: homepage
                                     <img class="indexworksmall" src="http://fpoimg.com/340x490">
                                     <h4>Project Name 4</h4>
                                 </div> */
+                                
                             </div>
                         </div>	
 					</div>
