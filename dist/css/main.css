@@ -446,7 +446,8 @@ footer{
 	}
     	
 	.bottomnavmenu ul a {
-	    width: 20%;
+	    width: auto;
+	    padding: 0 2%;
 	    text-align: center;
 		float: left;
     }
