@@ -1,4 +1,10 @@
 title: Eric Fung Portfolio
 
-url: "http://efungr.github.io/"
-baseurl: "portfolio"
+url: "http://efungr.github.io/portfolio"
+baseurl: "/portfolio"
+
+permalink: none
+
+collections:
+    portfolio:
+        output: true
