@@ -506,7 +506,8 @@ footer{
 	
 	.bottomnavmenu ul{
 	    height: 100px;
-	    width: 100%;
+	    width: auto:
+	    padding: 0 2%;
 		float: left;
 	    display: block;
 	    margin-top: 20px;
