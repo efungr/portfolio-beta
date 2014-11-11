@@ -34,8 +34,9 @@ title: homepage
                         </div>
                         <div class="row">
                             <div class="morework">
+                            <div class="otherworkmainpage">
                             	{% for work in site.work reversed limit:4 %}
-                                <div class="grid-fourth">
+                                <!-- <div class="grid-fourth"> -->
                                     <a href="{{site.url}}{{work.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
 									<h4>
                                     {{work.title}}
