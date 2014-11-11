@@ -225,7 +225,7 @@ article {
 .aboutmetitle{
 	display: inline-block;
 	padding-top: 0;
-    padding-left: 1.5%;
+    padding-left: 2.5%;
 }
 
 .aboutmesubtitle{
@@ -433,6 +433,11 @@ footer{
 		     border-right: black 2px solid;
 	}
 
+	/*////////////////// ABOUT ME /////////////////////////*/
+	
+	.aboutmetitle{
+    padding-left: 1.5%;
+}
     
     /*/////////////////Footer/////////////////////////////*/
     
