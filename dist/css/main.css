@@ -230,8 +230,12 @@ article {
 
 .aboutmesubtitle{
 	padding-left: 3%;
-
 }
+
+.aboutsmallheader {
+	padding-left: 0;
+}
+    
 
 .aboutmetext{
 }
@@ -441,7 +445,10 @@ footer{
 
 	.aboutmesubtitle{
 	padding-left: 1.5%;
+}
 
+	.aboutsmallheader {
+	padding-left: 0;
 }
     
     /*/////////////////Footer/////////////////////////////*/
