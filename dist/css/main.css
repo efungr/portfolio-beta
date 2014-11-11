@@ -229,7 +229,7 @@ article {
 }
 
 .aboutmesubtitle{
-	padding-left: 1.5%;
+	padding-left: 2.5%;
 
 }
 
@@ -437,6 +437,11 @@ footer{
 	
 	.aboutmetitle{
     padding-left: 1.5%;
+}
+
+	.aboutmesubtitle{
+	padding-left: 1.5%;
+
 }
     
     /*/////////////////Footer/////////////////////////////*/
