@@ -225,11 +225,11 @@ article {
 .aboutmetitle{
 	display: inline-block;
 	padding-top: 0;
-    padding-left: 2.5%;
+    padding-left: 10px;
 }
 
 .aboutmesubtitle{
-	padding-left: 2.5%;
+	padding-left: 10px;
 
 }
 
