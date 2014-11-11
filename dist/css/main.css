@@ -288,6 +288,11 @@ footer{
 
 }
 
+.socialmediafooter{
+	float: right;
+	margin-top: 10px;
+}
+
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
