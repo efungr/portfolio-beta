@@ -222,17 +222,10 @@ article {
 	padding-top: 150px;
 }
 
-.aboutmephoto{
-	display: inline-block;
-	text-align: center;
-	width: 100%;
-}
-
 .aboutmetitle{
 	display: inline-block;
 	padding-top: 0;
-    padding-left: 2%;
-
+    padding-left: 1.5%;
 }
 
 .aboutmesubtitle{
@@ -241,7 +234,6 @@ article {
 }
 
 .aboutmetext{
-    padding-left: 2%;
 }
 
 
