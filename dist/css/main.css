@@ -547,10 +547,8 @@ footer{
 	
 	.bottomnavmenu ul{
 	    height: 100px;
-	    width: auto;
+	    width: 100%;
 	    padding: 0 2%;
-		float: left;
-	    display: block;
 	    margin-top: 20px;
 	    margin-left: 2%;
 	    
@@ -563,7 +561,7 @@ footer{
     
     .socialmediafooter {
         margin-top: 10px;
-        display: block;
+        display: inline-block;
         float: right;
     }
     
