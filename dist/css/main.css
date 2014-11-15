@@ -324,8 +324,9 @@ footer{
 	}
 
 	.toplinks {
-		font-size: 18px;
-	}
+		font-size: 20pt;
+        font-weight: 400;
+    }
 	
 	.navtop {
     width: 100%;
@@ -414,8 +415,6 @@ footer{
            /*///////////////////   Main Body   //////////////////////*/
 
     .latestworktitle{
-		font-family: sans-serif;
-		font-size: 20pt;
 	    padding: 0 35px 20px 0;
 	    margin-bottom:0px;
 	    display: inline-block;
@@ -430,8 +429,6 @@ footer{
 
 
 	.latestworktitle{
-		font-family: sans-serif;
-		font-size: 20pt;
 		padding: 0 35px 20px 0;
 		margin-bottom:0px;
 		display: inline-block;
@@ -515,7 +512,6 @@ footer{
          /*///////////////////// Top Nav Bar Style ////////////////////*/
 
 	.toplinks {
-		font-size: 25px;
 	}
 	
 	.navleft{
@@ -541,7 +537,7 @@ footer{
 	
 	.bottomnavmenu ul{
 	    height: 100px;
-	    width: auto:
+	    width: auto;
 	    padding: 0 2%;
 		float: left;
 	    display: block;
