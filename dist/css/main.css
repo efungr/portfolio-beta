@@ -8,9 +8,14 @@ ul{
 }
 
 p {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
 	margin: 10px;
 }
+
+h4 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
 
 
 /*///////////////////// Top Nav Bar Style ////////////////////*/
@@ -18,8 +23,8 @@ p {
 
 .toplinks  {
 	text-decoration: none;
-    font-family: 'Futura Medium Condensed BT' sans-serif;
-    font-size: 16px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 18pt;
     overflow: visible;
 }
 
@@ -130,8 +135,9 @@ article {
 
 .title {
 
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 70pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 72pt;
     margin-top: 150px;
     margin-bottom: 0;
     padding: 0 6%;
@@ -139,7 +145,8 @@ article {
 }
 
 .subtitle {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
     font-size: 40pt;
     margin-top: -5%;
     margin-bottom: 0;
@@ -147,21 +154,20 @@ article {
 }
 
 .titlesubtext {
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
     font-size: 12pt;
 	margin: 10%;
 	text-align: center;
 }
 
 
-.latestworktitle{
-	font-family: sans-serif;
-	font-size: 20pt;
+.latestworktitle {
+	font-family: 'Pathway Gothic One', 'sans-serif';
+    font-weight: 400;
+	font-size: 30pt;
     padding: 0 35px 20px 2%;
     margin-bottom:0px;
     display: inline-block;
-    
-
 }
 
 .latestworkbox {
