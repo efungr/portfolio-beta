@@ -474,7 +474,7 @@ footer{
 	    height: 100px;
 	    width: 100%;
 		float: left;
-	    display: block;
+	    display: inline-block;
 	    margin-top: 20px;
 	    margin-left: 2%;
 	    
