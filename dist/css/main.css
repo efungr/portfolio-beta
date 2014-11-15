@@ -231,12 +231,15 @@ article {
 }
 
 .aboutmetitle{
-	display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42pt;
 	padding-top: 0;
     padding-left: 3%;
 }
 
 .aboutmesubtitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 26pt;
 	padding-left: 3%;
 }
 
@@ -244,7 +247,6 @@ article {
 	padding-left: 1.5%;
 }
     
-
 .aboutmetext{
 }
 
