@@ -487,6 +487,11 @@ footer{
 		float: left;
     }
 
+    .socialmediafooter {
+        margin-top: 10px;
+        display: block;
+        float: right;
+    }
 }
 
          /*///////////////////// End 700px Media ////////////////////*/
