@@ -12,6 +12,12 @@ p {
 	margin: 10px;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 42pt;
+}
+
 h4 {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 16pt;
