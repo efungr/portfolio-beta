@@ -29,7 +29,7 @@ title: homepage
                                     {{post.title}}
                                 </h4>
                                 <p class="projectdescrip">
-                                {{ post.excerpt }}
+                                {{ post.excerpt | begin on first <p> }}
                                 <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisl nisi. Maecenas vel dolor id erat tempor fermentum sit amet sed nisi. Integer id euismod nulla, ac sollicitudin lectus. Duis vel pulvinar mauris.  
                                 -->
                                 </p>
