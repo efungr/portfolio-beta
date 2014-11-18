@@ -5,9 +5,8 @@ baseurl: "/portfolio"
 
 permalink: none
 
-collections:
-    work:
-        output: true
+posts:
+    output: true
         
 gems:
 - jekyll-sitemap
