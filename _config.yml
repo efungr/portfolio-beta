@@ -8,3 +8,13 @@ permalink: none
 collections:
     work:
         output: true
+        
+gems:
+- jekyll-sitemap
+
+sitemap:
+    file: "/sitemap.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
