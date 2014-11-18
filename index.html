@@ -28,13 +28,15 @@ title: homepage
                                     Project Name
                                 </h4>
                                 <p class="projectdescrip">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisl nisi. Maecenas vel dolor id erat tempor fermentum sit amet sed nisi. Integer id euismod nulla, ac sollicitudin lectus. Duis vel pulvinar mauris.  
+                                {{page.excerpt}}
+                                <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisl nisi. Maecenas vel dolor id erat tempor fermentum sit amet sed nisi. Integer id euismod nulla, ac sollicitudin lectus. Duis vel pulvinar mauris.  
+                                -->
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="morework">
-                            	{% for post in site.posts limit:4 %}
+                            	{% for post in site.posts array limit:4 offset:1 %}
                                 <div class="grid-fourth">
                                     <a href="{{site.url}}{{post.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
 									<h4>
