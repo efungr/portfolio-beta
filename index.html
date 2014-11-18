@@ -20,12 +20,13 @@ title: homepage
 						  <h3 class="latestworktitle">Latest Work</h3>
                         </div>
                         <div class="row">
+                        {% for post in site.posts array limit:1 %}
 				            <div class="grid-three-fourths">
-							     <img class="latestprojectpic" src="http://fpoimg.com/1200x900">
+							     <a href="{{site.url}}{{post.url}}"><img class="latestprojectpic" src="http://fpoimg.com/1200x900"></a>
                             </div>
                             <div class="grid-fourth">
                                 <h4 class="projectname">
-                                    Project Name
+                                    {{post.title}}
                                 </h4>
                                 <p class="projectdescrip">
                                 {{page.excerpt}}
@@ -33,6 +34,7 @@ title: homepage
                                 -->
                                 </p>
                             </div>
+                            {% endfor  %}
                         </div>
                         <div class="row">
                             <div class="morework">
