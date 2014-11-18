@@ -34,9 +34,9 @@ title: homepage
                         </div>
                         <div class="row">
                             <div class="morework">
-                            	{% for work in site.posts limit:4 %}
+                            	{% for post in site.posts limit:4 %}
                                 <div class="grid-fourth">
-                                    <a href="{{site.url}}{{posts.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
+                                    <a href="{{site.url}}{{post.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
 									<h4>
                                     {{post.title}}
                         			</h4>
