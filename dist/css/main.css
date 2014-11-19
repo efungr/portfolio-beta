@@ -7,10 +7,12 @@ ul{
     list-style: none;
 }
 
+
 p {
-    font-family: 'Rokkitt', serif;
-    font-size: 12pt;
-    line-height: 1.5;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 13pt;
+    line-height: 1.45;
+    color:  #555;
 	margin: 10px;
 }
 
@@ -18,36 +20,42 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 42pt;
     font-weight: 400;
+    color:  #222;
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 32pt;
     font-weight: 400;
+    color:  #222;
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 22pt;
     font-weight: 400;
+    color:  #222;
 }
 
 h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 14pt;
     font-weight: 400;
+    color:  #222;
 }
 
 h5 {
     font-family: 'Oswald', sans-serif;
     font-size: 16pt;
     font-weight: 400;
+    color:  #222;
 }
 
 h6 {
     font-family: 'Oswald', sans-serif;
     font-size: 10pt;
     font-weight: 400;
+    color:  #222;
 }
 
 /*///////////////////// Top Nav Bar Style ////////////////////*/
@@ -188,8 +196,6 @@ article {
 }
 
 .titlesubtext {
-	font-family: 'Rokkitt', sans-serif;
-    font-size: 12pt;
 	margin: 10%;
 	text-align: center;
 }
