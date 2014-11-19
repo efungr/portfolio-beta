@@ -322,7 +322,7 @@ footer{
     width: auto;
     padding: 0 2%;
     font-family: 'Oswald', sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 400;
     text-align: center;
 	float: none;
@@ -364,7 +364,7 @@ footer{
 	}
 
 	.toplinks {
-		font-size: 16pt;
+		font-size: 18pt;
         font-weight: 400;
     }
 	
