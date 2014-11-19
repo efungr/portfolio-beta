@@ -8,19 +8,45 @@ ul{
 }
 
 p {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
 	margin: 10px;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
     font-size: 42pt;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32pt;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22pt;
+    font-weight: 400;
 }
 
 h4 {
-    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
     font-size: 16pt;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
     font-weight: 400;
 }
 
@@ -29,7 +55,7 @@ h4 {
 
 .toplinks  {
 	text-decoration: none;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 18pt;
     overflow: visible;
 }
@@ -153,16 +179,16 @@ article {
 }
 
 .subtitle {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 40pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 34pt;
     margin-top: -5%;
     margin-bottom: 0;
 	text-align: center;
 }
 
 .titlesubtext {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Rokkitt', sans-serif;
     font-size: 12pt;
 	margin: 10%;
 	text-align: center;
@@ -170,9 +196,9 @@ article {
 
 
 .latestworktitle {
-	font-family: 'Pathway Gothic One', 'sans-serif';
-    font-weight: 400;
-	font-size: 30pt;
+	font-family: 'Oswald', 'sans-serif';
+    font-weight: 300;
+	font-size: 26pt;
     padding: 0 35px 20px 2%;
     margin-bottom:0px;
     display: inline-block;
@@ -295,11 +321,13 @@ footer{
 .bottomnavmenu ul a {
     width: auto;
     padding: 0 2%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
     text-align: center;
 	float: none;
     text-decoration: none;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 18pt;
+
 }
 
 .bottomnavmenu li{
@@ -336,7 +364,7 @@ footer{
 	}
 
 	.toplinks {
-		font-size: 23pt;
+		font-size: 16pt;
         font-weight: 400;
     }
 	
@@ -529,7 +557,7 @@ footer{
          /*///////////////////// Top Nav Bar Style ////////////////////*/
 
 	.toplinks {
-        font-size: 23pt;
+        font-size: 16pt;
 	}
 	
 	.navleft{
