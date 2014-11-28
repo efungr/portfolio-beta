@@ -81,9 +81,9 @@ h6 {
     width: 100%;
     height: 72px;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 3px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 }
 
 /*
@@ -142,9 +142,9 @@ h6 {
      display: none; 
     margin-bottom: 75px;
 
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
     
 }
 
@@ -210,9 +210,9 @@ article {
 .latestworkbox {
     width:100%;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
     
 }
 
@@ -304,9 +304,9 @@ footer{
     width: 100%;
     margin-top:40px;
     
- -webkit-border-top: black 2px solid;
-	-moz-border-top: black 2px solid;
-		 border-top: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 }
 
 .bottomnavmenu ul{
@@ -380,9 +380,9 @@ footer{
     width: 100%;
     height: 115px;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 }
 
 
@@ -481,9 +481,9 @@ footer{
 		margin-bottom:0px;
 		display: inline-block;
     
- -webkit-border-right: black 2px solid;
-	-moz-border-right: black 2px solid;
-		 border-right: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 
 	}
 
@@ -493,9 +493,9 @@ footer{
 		width: 106%;
 		margin-bottom: 50px;
     
-     -webkit-border-right: black 2px solid;
-	    -moz-border-right: black 2px solid;
-		     border-right: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 	}
 
 	/*////////////////// ABOUT ME /////////////////////////*/
