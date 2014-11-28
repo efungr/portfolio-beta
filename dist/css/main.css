@@ -543,9 +543,10 @@ footer{
 /*///////////////////Post Layout///////////////////////*/
 
 .postdiv{
-    
     display: inline-block;
+    padding-top: 55px;
 }
+
 .postheaders{
 }
 
