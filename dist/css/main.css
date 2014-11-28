@@ -351,12 +351,16 @@ footer{
 /*///////////////////Post Layout///////////////////////*/
 
 .postdiv{
-    padding-top: 150px;
+    padding-top: 105px;
     display: inline-block;
 }
 
 .postheaders{
     margin-left: 1%;
+}
+
+.postimg{
+    width: 100%;
 }
 
 
