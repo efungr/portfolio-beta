@@ -304,9 +304,10 @@ footer{
     width: 100%;
     margin-top:40px;
     
- -webkit-border-bottom: #222 1.5px solid;
-	-moz-border-bottom: #222 1.5px solid;
-		 border-bottom: #222 1.5px solid;
+ -webkit-border-top: #222 1.5px solid;
+	-moz-border-top: #222 1.5px solid;
+		 border-top: #222 1.5px solid;
+    
 }
 
 .bottomnavmenu ul{
@@ -462,10 +463,15 @@ footer{
 	
            /*///////////////////   Main Body   //////////////////////*/
 
-    .latestworktitle{
-	    padding: 0 35px 20px 0;
-	    margin-bottom:0px;
-	    display: inline-block;
+	.latestworktitle{
+         font-family: ;
+		 font-size: 20pt;
+	     padding: 0 35px 20px 0;
+	     margin-bottom:0px;
+	     display: inline-block;
+ -webkit-border-right: #222 1.5px solid;
+	-moz-border-right: #222 1.5px solid;
+		 border-right: #222 1.5px solid;
 	
 	}
 
@@ -480,6 +486,9 @@ footer{
 		padding-top: 30px;
 		width: 106%;
 		margin-bottom: 50px;
+ -webkit-border-right: #222 1.5px solid;
+	-moz-border-right: #222 1.5px solid;
+		 border-right: #222 1.5px solid;
 
 	}
 
