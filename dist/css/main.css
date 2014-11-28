@@ -4,13 +4,14 @@
 }
 
 ul{
+    font-family: 'Oswald', sans-serif;
     list-style: none;
 }
 
 
 p {
-    font-family: 'Rokkitt', sans-serif;
-    font-size: 13pt;
+    font-family: 'Tinos', sans-serif;
+    font-size: 12pt;
     line-height: 1.45;
     color:  #555;
 	margin: 10px;
@@ -63,7 +64,6 @@ h6 {
 
 .toplinks  {
 	text-decoration: none;
-    font-family: 'Oswald', sans-serif;
     font-size: 18pt;
     overflow: visible;
 }
@@ -177,7 +177,6 @@ article {
 
 .title {
 
-    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 72pt;
     margin-top: 150px;
@@ -187,7 +186,6 @@ article {
 }
 
 .subtitle {
-    font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 34pt;
     margin-top: -5%;
@@ -202,7 +200,6 @@ article {
 
 
 .latestworktitle {
-	font-family: 'Oswald', 'sans-serif';
     font-weight: 400;
 	font-size: 22pt;
     padding: 0 35px 20px 2%;
@@ -269,14 +266,12 @@ article {
 }
 
 .aboutmetitle{
-    font-family: 'Oswald', sans-serif;
     font-size: 42pt;
 	padding-top: 0;
     padding-left: 3%;
 }
 
 .aboutmesubtitle{
-    font-family: 'Oswald', sans-serif;
     font-size: 26pt;
 	padding-left: 3%;
 }
@@ -327,7 +322,6 @@ footer{
 .bottomnavmenu ul a {
     width: auto;
     padding: 0 2%;
-    font-family: 'Oswald', sans-serif;
     font-size: 12pt;
     font-weight: 400;
     text-align: center;
