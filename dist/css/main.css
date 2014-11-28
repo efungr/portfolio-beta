@@ -348,11 +348,14 @@ footer{
 }
 
 
-/*//////////////////////  POST  /////////////////////////*/
+/*///////////////////Post Layout///////////////////////*/
 
 .postdiv{
-	display: inline-block;
-	padding-top: 150px;
+    padding-top: 105px;
+    display: inline-block;
+}
+.postheaders{
+    margin-left: 1%;
 }
 
 
@@ -534,6 +537,15 @@ footer{
         display: block;
         float: right;
     }
+}
+
+/*///////////////////Post Layout///////////////////////*/
+
+.postdiv{
+    padding-top: 55px;
+    display: inline-block;
+}
+.postheaders{
 }
 
          /*///////////////////// End 700px Media ////////////////////*/
