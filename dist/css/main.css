@@ -466,7 +466,6 @@ footer{
 	    padding: 0 35px 20px 0;
 	    margin-bottom:0px;
 	    display: inline-block;
-	    
 	
 	}
 
@@ -476,26 +475,12 @@ footer{
 	}
 
 
-	.latestworktitle{
-		padding: 0 35px 20px 0;
-		margin-bottom:0px;
-		display: inline-block;
-    
- -webkit-border-bottom: #222 1.5px solid;
-	-moz-border-bottom: #222 1.5px solid;
-		 border-bottom: #222 1.5px solid;
-
-	}
-
 	.projectname{
     	display: inline-block;
 		padding-top: 30px;
 		width: 106%;
 		margin-bottom: 50px;
-    
- -webkit-border-bottom: #222 1.5px solid;
-	-moz-border-bottom: #222 1.5px solid;
-		 border-bottom: #222 1.5px solid;
+
 	}
 
 	/*////////////////// ABOUT ME /////////////////////////*/
