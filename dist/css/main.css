@@ -358,11 +358,17 @@ footer{
 }
 
 .postheaders{
-    margin-left: 1%;
 }
 
 .postimg{
     width: 100%;
+}
+
+/*///////////////////Contact Page///////////////////////*/
+
+.maincontactpage{
+    padding-top: 105px;
+    display: inline-block;
 }
 
 
