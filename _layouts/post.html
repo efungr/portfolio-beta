@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% for post in site.posts array limit:0 %}
+
 <div class="postdiv">
 
 <img class="postimg" src="{% if post.image %}{{post.image}}{% endif %}">
@@ -11,3 +13,5 @@ layout: default
                 {{  content  }}   
 
 </div>
+
+  {% endfor  %}
