@@ -3,9 +3,9 @@
 
 <div class="postdiv">
 
-<img class="postimg" src="{{image}}">
+<img class="postimg" src="{% if post.image %}{{post.image}}{% endif %}">
 
-<h3 class="postheaders">{{title}} | {{subtitle}}</h3>
+<h3 class="postheaders">{% if post.title %}{{post.title}}{% endif %} | {% if post.subtitle %}{{post.subtitle}}{% endif %}</h3>
     
                 {{  content  }}   
 
