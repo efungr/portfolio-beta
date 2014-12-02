@@ -4,9 +4,9 @@ layout: default
 
 <div class="postdiv">
 
-<img class="postimg" src="{% if post.image %}{{post.image}}{% endif %}">
+<img class="postimg" src="{% if page.image %}{{page.image}}{% endif %}">
 
-<h3 class="postheaders">{% if post.title %}{{post.title}}{% endif %} | {% if post.subtitle %}{{post.subtitle}}{% endif %}</h3>
+<h3 class="postheaders">{% if page.title %}{{page.title}}{% endif %} | {% if page.subtitle %}{{page.subtitle}}{% endif %}</h3>
     
                 {{  content  }}   
 
