@@ -22,7 +22,7 @@ title: homepage
                         <div class="row">
                         {% for post in site.posts array limit:1 %}
 				            <div class="grid-three-fourths">
-							     <a href="{{site.url}}{{post.url}}"><img class="latestprojectpic" src="http://fpoimg.com/1200x900"></a>
+							     <a href="{{site.url}}{{post.url}}"><img class="latestprojectpic" src="{% if post.image %}{{post.image}}{% endif %}"></a>
                             </div>
                             <div class="grid-fourth">
                                 <h4 class="projectname">
@@ -39,7 +39,7 @@ title: homepage
                             <div class="morework">
                             	{% for post in site.posts array limit:4 offset:1 %}
                                 <div class="grid-fourth">
-                                    <a href="{{site.url}}{{post.url}}"><img class="indexworksmall" src="http://fpoimg.com/340x490"></a>
+                                    <a href="{{site.url}}{{post.url}}"><img class="indexworksmall" src="{% if post.smimage %}{{post.smimage}}{% endif %}"></a>
 									<h4 class="moreworktitles">
                                     {{post.title}}
                         			</h4>
