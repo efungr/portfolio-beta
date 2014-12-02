@@ -280,8 +280,12 @@ article {
 }
     
 .aboutmetext{
+	margin: 1.5%;
 }
 
+.resumelink{
+	margin: 1.5%;
+}
 
 /*///////////////////Work///////////////////////*/
 
@@ -494,15 +498,23 @@ footer{
 	/*////////////////// ABOUT ME /////////////////////////*/
 	
 	.aboutmetitle{
-    padding-left: 1.5%;
+    	padding-left: 1.5%;
 }
 
 	.aboutmesubtitle{
-	padding: 0 1.5%;
+		padding: 0 1.5%;
 }
 
 	.aboutsmallheader {
-	padding-left: 0;
+		padding-left: 0;
+}
+
+	.aboutmetext{
+		margin: 0;
+}
+
+	.resumelink{
+		margin: 1.5%;
 }
     
     /*/////////////////Footer/////////////////////////////*/
