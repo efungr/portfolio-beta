@@ -14,7 +14,7 @@ p {
     font-size: 12pt;
     line-height: 1.45;
     color:  #555;
-	margin: 0;
+	padding-left: 1.5%;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h2 {
     font-size: 32pt;
     font-weight: 400;
     color:  #222;
+    padding-left: 1.5%;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
     font-size: 22pt;
     font-weight: 400;
     color:  #222;
+    padding-left: 1.5%;
 }
 
 h4 {
@@ -280,15 +282,12 @@ article {
 }
 
 .aboutsmallheader {
-	padding-left: 1.5%;
 }
     
 .aboutmetext{
-	margin: 1.5%;
 }
 
 .resumelink{
-	margin: 1.5%;
 }
 
 /*///////////////////Work///////////////////////*/
@@ -371,6 +370,34 @@ footer{
 
 
 @media (min-width: 700px){
+
+p {
+	padding-left: 0;
+}
+
+h1 {
+    padding-left: 0;
+}
+
+h2 {
+    padding-left: 0;
+}
+
+h3 {
+    padding-left: 0;
+}
+
+h4 {
+    padding-left: 0;
+}
+
+h5 {
+    padding-left: 0;
+}
+
+h6 {
+    padding-left: 0;
+}
 
 
            /*///////////////////// Top Nav Bar Style ////////////////////*/
@@ -519,7 +546,7 @@ footer{
 }
 
 	.resumelink{
-		margin: 1.5%;
+		margin: 0%;
 }
     
     /*/////////////////Footer/////////////////////////////*/

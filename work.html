@@ -5,17 +5,17 @@ title: work
 
 			<section>
 				<div class="mainwork">
-                    <h1>All of the things I've done</h1>       
+                    <h1 class="worktitle">All of the things I've done</h1>       
                     <div class="row">
                     
                     {% for post in site.posts %}
                     
 				            <div class="grid-third">
 							    <a href="{{site.url}}{{post.url}}"><img class="projectimg" src="http://fpoimg.com/340x490"></a>
-                                <h4 class="">
+                                <h4 class="workprojecttitle">
                                     {{post.title}}
                         		</h4>
-                        			<h6>{{post.subtitle}}</h6>
+                        			<h6 class="workprojectsubtitle">{{post.subtitle}}</h6>
                             </div>
                             
                             {% endfor  %}
