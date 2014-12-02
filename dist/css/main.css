@@ -14,7 +14,7 @@ p {
     font-size: 12pt;
     line-height: 1.45;
     color:  #555;
-	padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
     font-size: 42pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
     font-size: 32pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h3 {
     font-size: 22pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h4 {
@@ -46,7 +46,7 @@ h4 {
     font-size: 14pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h5 {
@@ -54,7 +54,7 @@ h5 {
     font-size: 16pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 h6 {
@@ -62,7 +62,7 @@ h6 {
     font-size: 10pt;
     font-weight: 400;
     color:  #222;
-    padding-left: 1.5%;
+	padding: 0 1.5%;
 }
 
 /*///////////////////// Top Nav Bar Style ////////////////////*/
@@ -379,31 +379,31 @@ footer{
 @media (min-width: 700px){
 
 p {
-	padding-left: 0;
+	padding 0;
 }
 
 h1 {
-    padding-left: 0;
+	padding 0;
 }
 
 h2 {
-    padding-left: 0;
+	padding 0;
 }
 
 h3 {
-    padding-left: 0;
+	padding 0;
 }
 
 h4 {
-    padding-left: 0;
+	padding 0;
 }
 
 h5 {
-    padding-left: 0;
+	padding 0;
 }
 
 h6 {
-    padding-left: 0;
+	padding 0;
 }
 
 
