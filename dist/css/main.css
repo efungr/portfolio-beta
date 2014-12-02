@@ -257,6 +257,10 @@ article {
     padding: 2% .9%;
 }
 
+.moreworktitles{
+	margin-top: 3%;
+}
+
 .indexworksmall{
     display: block;
     text-align: center;
@@ -533,6 +537,7 @@ h6 {
 		 border-right: #222 1.5px solid;
 
 	}
+
 
 	/*////////////////// ABOUT ME /////////////////////////*/
 	
