@@ -256,7 +256,7 @@ article {
 
 .projectname{
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 5%;
     width: 106%;
     margin-bottom: 0;
     
@@ -281,7 +281,7 @@ article {
 }
 
 .moreworktitles{
-	margin-top: 3%;
+	margin-top: 5%;
     margin-bottom: 0;
 }
 
@@ -336,7 +336,7 @@ article {
 }
 
 .workprojecttitle{
-	margin-top: 3%;
+	margin-top: 5%;
     margin-bottom: 0;
 }
 
