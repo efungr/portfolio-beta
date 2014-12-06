@@ -191,7 +191,6 @@ h6 {
 
 .maintext{
     padding-top: 125px;
-    display: inline-block;
 }
 
 article {
@@ -296,7 +295,6 @@ article {
 /*?////////////////////// About Me //////////////////////////*/
 
 .aboutmemain{
-    display: inline-block;
 	padding-top: 125px;
 }
 
@@ -325,7 +323,6 @@ article {
 
 .mainwork{
     display: inline-block;
-    padding-top: 125px;
 }
 
 .projectimg{
@@ -391,7 +388,6 @@ footer{
 
 .postdiv{
     padding-top: 125px;
-    display: inline-block;
 }
 
 .postheaders{
@@ -405,7 +401,6 @@ footer{
 
 .maincontactpage{
     padding-top: 125px;
-    display: inline-block;
 }
 
 
