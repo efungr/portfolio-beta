@@ -189,6 +189,9 @@ h6 {
 /*///////////////////   Main Body   //////////////////////*/
 
 
+.maintext{
+    display: inline-block;
+}
 
 article {
 	height: 200px;
@@ -294,6 +297,7 @@ article {
 /*?////////////////////// About Me //////////////////////////*/
 
 .aboutmemain{
+    display: inline-block;
 	padding-top: 150px;
 }
 
@@ -321,6 +325,7 @@ article {
 /*///////////////////Work///////////////////////*/
 
 .mainwork{
+    display: inline-block;
     padding-top: 150px;
 }
 
