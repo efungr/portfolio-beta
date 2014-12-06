@@ -190,11 +190,11 @@ h6 {
 
 
 .maintext{
+    padding-top: 125px;
     display: inline-block;
 }
 
 article {
-	height: 200px;
 }
 
 
@@ -202,7 +202,6 @@ article {
 
     font-weight: 400;
     font-size: 72pt;
-    margin-top: 150px;
     margin-bottom: 0;
     padding: 0 6%;
 	text-align: center;
@@ -298,7 +297,7 @@ article {
 
 .aboutmemain{
     display: inline-block;
-	padding-top: 150px;
+	padding-top: 125px;
 }
 
 .aboutmetitle{
@@ -326,7 +325,7 @@ article {
 
 .mainwork{
     display: inline-block;
-    padding-top: 150px;
+    padding-top: 125px;
 }
 
 .projectimg{
@@ -391,7 +390,7 @@ footer{
 /*///////////////////Post Layout///////////////////////*/
 
 .postdiv{
-    padding-top: 105px;
+    padding-top: 125px;
     display: inline-block;
 }
 
@@ -405,7 +404,7 @@ footer{
 /*///////////////////Contact Page///////////////////////*/
 
 .maincontactpage{
-    padding-top: 105px;
+    padding-top: 125px;
     display: inline-block;
 }
 
