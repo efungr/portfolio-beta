@@ -11,11 +11,13 @@ title: work
                     {% for post in site.posts %}
                     
 				            <div class="grid-third">
-							    <a href="{{site.url}}{{post.url}}"><img class="projectimg" src="http://fpoimg.com/340x490"></a>
+							    <a href="{{site.url}}{{post.url}}"><img class="projectimg" src={{post.smimage}}></a>
                                 <h4 class="workprojecttitle">
                                     {{post.title}}
                         		</h4>
-                        			<p class="workprojectsubtitle">{{post.subtitle}}</p>
+                                <h6 class="projectsub">
+                                        {{post.subtitle}}
+                                </h6>
                             </div>
                             
                             {% endfor  %}
