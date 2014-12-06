@@ -311,7 +311,7 @@ article {
 }
 
 .projectimg{
-    width: 98%;
+    width: 95%;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -579,6 +579,17 @@ h6 {
 
 	.resumelink{
 		padding: 0%;
+}
+    
+    
+    /*///////////////////Work///////////////////////*/
+
+.mainwork{
+    padding-top: 150px;
+}
+
+.projectimg{
+    width: 100%;
 }
     
     /*/////////////////Footer/////////////////////////////*/
