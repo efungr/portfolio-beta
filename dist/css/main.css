@@ -311,6 +311,7 @@ article {
 }
 
 .projectimg{
+    width: 98%;
     display: block;
     text-align: center;
     margin: 0 auto;
