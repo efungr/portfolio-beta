@@ -32,7 +32,7 @@ title: homepage
                                     {{post.subtitle}}
                                 </h6>
                                 <p class="projectdescrip">
-                                    {{ post.excerpt }}
+                                    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
                                 </p>
                             </div>
                             {% endfor  %}
