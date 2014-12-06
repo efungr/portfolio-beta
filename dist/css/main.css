@@ -147,8 +147,7 @@ h6 {
 .navright{
     width: 100%;
 	float: right;
-     display: none; 
-    margin-bottom: 75px;
+    display: none; 
 
  -webkit-border-bottom: #222 1.5px solid;
 	-moz-border-bottom: #222 1.5px solid;
@@ -175,10 +174,14 @@ h6 {
     height: 100%;
     display: block;
     text-align: center;
-    margin: -9px auto 10px auto;
+    margin: -9.8px auto 10px auto;
     position: relative;
     z-index: 1;
     
+}
+
+.tabbottom {
+    margin-bottom: 75px;
 }
 
 
