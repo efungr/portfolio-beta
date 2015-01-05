@@ -403,10 +403,17 @@ footer{
     padding-top: 125px;
 }
 
-.form{
-    padding: 50px 1.5% 0 1.5%;
-
+.contactsplit{
+    padding: 50px 1.5%;
 }
+
+.emailheader{
+    margin-right: 3%; 
+ -webkit-border-right: #888 1.5px solid;
+	-moz-border-right: #888 1.5px solid;
+		 border-right: #888 1.5px solid;
+}
+
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
