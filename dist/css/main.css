@@ -415,6 +415,27 @@ footer{
 		 border-right: #888 1.5px solid;
 }
 
+#times {
+background:blue;
+width:33px;
+height:100px;
+position:relative;
+margin-left:33px;
+-webkit-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);  
+}
+
+#times:before{
+background:blue;
+content:"";
+width:100px;
+height:33px;
+position:absolute;
+top:33px;
+left:-33px;
+} 
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
