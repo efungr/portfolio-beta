@@ -295,10 +295,12 @@ article {
 /*?////////////////////// About Me //////////////////////////*/
 
 .aboutmemain{
+    text-align: center;
 	padding-top: 125px;
 }
 
 .aboutmetitle{
+    text-align: center;
     font-size: 42pt;
 	padding-top: 0;
     padding-left: 3%;
@@ -322,6 +324,7 @@ article {
 /*///////////////////Work///////////////////////*/
 
 .mainwork{
+    text-align: center;
     padding-top: 125px;
 }
 
@@ -400,44 +403,21 @@ footer{
 /*///////////////////Contact Page///////////////////////*/
 
 .maincontactpage{
+    text-align: center;
     padding-top: 125px;
 }
 
 .contactsplit{
+    text-align: center;
     padding: 50px 1.5%;
     text-align: center;
 }
 
 .emailheader{
+    text-align: center;
     margin-right: 3%; 
- -webkit-border-right: #888 1.5px solid;
-	-moz-border-right: #888 1.5px solid;
-		 border-right: #888 1.5px solid;
-}
 
-    .background {
-        display: inline-block;
-        background-color: transparent;
-        width: 300px;
-        height: 300px;
-        padding: 0; 
-        margin: 0
-    }
-    .line1 {
-        margin-top: 150px;
-        width: 300px;
-        height: 1px;
-        border-bottom: 1px solid red;
-        transform:
-            rotate(45deg); 
-    }
-    .line2 {
-        width: 300px;
-        height: 1px;
-        border-bottom: 1px solid green;
-        transform:
-            rotate(-45deg);
-    }
+}
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
