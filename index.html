@@ -1,73 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<meta charset="utf-8">
-
-		<!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-		<!-- Document Title & Description -->
-		<title>Eric Fung Portfolio</title>
-		<meta name="description" content="">
-
-		<!-- Mobile Screen Resizing -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<!-- Icons: place in the root directory -->
-		<!-- https://github.com/audreyr/favicon-cheat-sheet -->
-
-		<!-- Feature Test -->
-		<script src="dist/js/feature-test.js"></script>
-
-		<!-- HTML5 Shim for IE 6-8 -->
-		<!--[if lt IE 9]>
-			<script src="dist/js/html5.js"></script>
-		<![endif]-->
-
-		<!-- stylesheet -->
-		<link rel="stylesheet" href="dist/css/kraken.css" type="text/css">
-<!-- 		<link rel="stylesheet" href="dist/css/drop-jumbo.css" type="text/css"> -->
-        <link rel="stylesheet" href="dist/css/main.css" type="text/css">
-
-	</head>
-
-	<body>
-
-		<!-- Old Browser Warning -->
-		<!-- If you're supporting IE 6-7, remove this -->
-		<!--[if lt IE 8]>
-			<section class="container">
-				Did you know that your web browser is a bit old? Some of the content on this site might not work right as a result. <a href="http://whatbrowser.org">Upgrade your browser</a> for a faster, better, and safer web experience.
-			</section>
-		<![endif]-->
-
-<div class="container">
-			<header>
-				<div class="topheader">
-				    <nav class="navtop">
-				        <div class="navcentermobile">
-					       <a class="dropdown" href="#"><img class="logo" src="img/Logo02.png"></a>
-				    	</div>
-                        <div class="navleft dropdown-menu">
-					       <ul class="navleftmenu">
-                                <a class="toplinks" href="index.html"><li>HOME</li></a>
-						        <a class="toplinks" href="about.html"><li>ABOUT</li></a>
-                            </ul>
-				    	</div>
-                        <div class="navcenter">
-					       <img class="logo" src="img/Logo02.png">
-				    	</div>
-                        <div class="navright dropdown-menu">
-                            <ul class="navrightmenu">
-                                <a class="toplinks" href="#"><li>WORK</li></a>
-						        <a class="toplinks" href="#"><li>CONTACT</li></a>
-                            </ul>
-				    	</div>
-				    </nav>
-				</div>
-			</header>
-			
+---
+layout: default
+title: homepage
+---
 			<section>
 				<div class="maintext">
 					<h1 class="title">
@@ -78,95 +12,49 @@
 					</h2>
 					<article>
 						<p class="titlesubtext">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisl nisi. Maecenas vel dolor id erat tempor fermentum sit amet sed nisi. Integer id euismod nulla, ac sollicitudin lectus. Duis vel pulvinar mauris. 
+						This is the portfolio of Eric Fung, a Chicago based designer.  Thanks for visiting!
 						</p>
 					</article>
 					<div class="latestwork">
                         <div class="latestworkbox">
-						  <h3 class="latestworktitle">Latest Work</h3>
+						  <h3 class="latestworktitle">Latest Projects</h3>
                         </div>
                         <div class="row">
-						<div class="grid-three-fourths">
-							<img class="latestprojectpic" src="http://fpoimg.com/800x600">
+                        {% for post in site.posts array limit:1 %}
+				            <div class="grid-three-fourths">
+							     <a href="{{site.url}}{{post.url}}"><img class="latestprojectpic" src="{% if post.image %}{{post.image}}{% endif %}"></a>
+                            </div>
+                            <div class="grid-fourth">
+                                <h4 class="projectname">
+                                    {{post.title}}
+                                </h4>
+                                <h6 class="projectsub">
+                                    {{post.subtitle}}
+                                </h6>
+                                <p class="projectdescrip">
+                                    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                                </p>
+                            </div>
+                            {% endfor  %}
                         </div>
-                        <div class="grid-fourth">
-                        	<h4 class="projectname">
-                        		Project Name
-                        	</h4>
-							<p class="projectdescrip">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisl nisi. Maecenas vel dolor id erat tempor fermentum sit amet sed nisi. Integer id euismod nulla, ac sollicitudin lectus. Duis vel pulvinar mauris.  
-                        	</p>
-                        </div>
+                        <div class="row">
+                            <div class="morework">
+                            	{% for post in site.posts array limit:4 offset:1 %}
+                                <div class="grid-fourth">
+                                    <a href="{{site.url}}{{post.url}}"><img class="indexworksmall" src="{% if post.smimage %}{{post.smimage}}{% endif %}"></a>
+									<h4 class="moreworktitles">
+                                    {{post.title}}
+                        			</h4>
+                        			<h6 class="projectsub">
+                                    {{post.subtitle}}
+                                    </h6>
+                                </div>
+                                
+                                {% endfor  %}
+                                  
+                            </div>
                         </div>	
 					</div>
 				</div><!-- end latestwork -->
 			</section>
-			<footer>
-				<div class="footersection">
-					<nav class="bottomnav">
-					<div class="row">
-						<div class="grid-third">
-                        	<div class="bottomnavmenu">
-				            	<ul>
-				                	<a class="footerlinks" href="#"><li>HOME</li></a>
-									<a class="footerlinks" href="#"><li>ABOUT</li></a>
-									<a class="footerlinks" href="#"><li>WORK</li></a>
-									<a class="footerlinks" href="#"><li>CONTACT</li></a>
-								</ul>
-							</div>
-						</div>
-						<div class="grid-two-thirds">
-						</div>
-					</div>    
-					</nav>
-				</div>
-			</footer>
-		</div>
-
-
-
-		<!-- Javascript -->
-		<!-- In the footer for better performance -->
-		<script src="dist/js/kraken.js"></script>
-<!--
-		<script src="dist/js/classlist.js"></script>
-		<script src="dist/js/drop.js"></script>
--->
-		<script src="dist/js/jquery-1.11.1.min.js"></script>
-	
-		
-
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-		<!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
-		<script>
-			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-			e.src='//www.google-analytics.com/analytics.js';
-			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-			ga('create','UA-XXXXX-X');ga('send','pageview');
-		</script>
-		
-		<script>
-
-				$( ".dropdown" ).click(function() {
-					$( ".dropdown-menu" ).slideToggle( "fast", function() {
-   				  });
-				});
-
-
-/*
-			drop.init({
-			toggleSelector: '.dropdown',
-			contentSelector: '.navleft.dropdown-menu, .navright.dropdown-menu',
-			toggleActiveClass: 'active',
-			contentActiveClass: 'active',
-			initClass: 'js-drop',
-			callbackBefore: function (toggle) {},
-			callbackAfter: function (toggle) {}
-		});
-*/
-		</script>
-
-	</body>
-</html>
+			

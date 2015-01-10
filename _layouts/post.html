@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="postdiv">
+
+<img class="postimg" src="{% if page.image %}{{page.image}}{% endif %}">
+
+<h3 class="postheaders">{% if page.title %}{{page.title}}{% endif %}</h3>
+<h4 class="postsubtitle">{% if page.subtitle %}{{page.subtitle}}{% endif %}</h4>
+    
+<p class="postcontent">{{  content | remove: '<p>' | remove: '</p>'  }}</p>   
+
+</div>

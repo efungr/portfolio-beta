@@ -1,0 +1,19 @@
+title: Eric Fung Portfolio
+
+url: "http://efungr.github.io/portfolio"
+baseurl: "/portfolio"
+
+permalink: none
+
+posts:
+    output: true
+        
+gems:
+- jekyll-sitemap
+
+sitemap:
+    file: "/sitemap.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

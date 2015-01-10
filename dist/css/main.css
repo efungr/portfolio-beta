@@ -1,24 +1,76 @@
 .container {
 	width: 100%;
+    overflow: hidden
 }
 
 ul{
+    font-family: 'Oswald', sans-serif;
     list-style: none;
 }
 
+
 p {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-	margin: 10px;
+    font-family: 'Tinos', serif;
+    font-size: 12pt;
+    line-height: 1.45;
+    color:  #555;
+	padding: 0 1.5%;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    color:  #222;
+	padding: 0 1.5%;
+}
 
 /*///////////////////// Top Nav Bar Style ////////////////////*/
 
 
 .toplinks  {
 	text-decoration: none;
-    font-family: 'Futura Medium Condensed BT' sans-serif;
-    font-size: 16px;
+    font-size: 18pt;
     overflow: visible;
 }
 
@@ -28,6 +80,8 @@ p {
     display: block;
     text-align: center;
     margin: 10px auto 76px auto;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -35,9 +89,9 @@ p {
     width: 100%;
     height: 72px;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 }
 
 /*
@@ -93,12 +147,11 @@ p {
 .navright{
     width: 100%;
 	float: right;
-     display: none; 
-    margin-bottom: 75px;
+    display: none; 
 
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
     
 }
 
@@ -116,59 +169,70 @@ p {
 
 }
 
+.tab {
+    width: 57px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: -11.5px auto 0 auto;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.tabbottom {
+    margin-bottom: 55px;
+}
+
 
 
 /*///////////////////   Main Body   //////////////////////*/
 
 
+.maintext{
+    padding-top: 125px;
+}
 
 article {
-	height: 200px;
 }
 
 
 .title {
 
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 70pt;
-    margin-top: 150px;
+    font-weight: 400;
+    font-size: 72pt;
     margin-bottom: 0;
     padding: 0 6%;
 	text-align: center;
 }
 
 .subtitle {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 40pt;
-    margin-top: -5%;
+    font-weight: 300;
+    font-size: 34pt;
     margin-bottom: 0;
 	text-align: center;
 }
 
 .titlesubtext {
-	font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 12pt;
 	margin: 10%;
 	text-align: center;
 }
 
 
-.latestworktitle{
-	font-family: sans-serif;
-	font-size: 20pt;
+.latestworktitle {
+    font-weight: 400;
+	font-size: 22pt;
     padding: 0 35px 20px 2%;
     margin-bottom:0px;
     display: inline-block;
-    
-
 }
 
 .latestworkbox {
     width:100%;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
     
 }
 
@@ -191,42 +255,141 @@ article {
 
 .projectname{
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 5%;
     width: 106%;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     
+}
+
+.projectsub{
+    padding-top: 5px;
+    margin-bottom: 35px;
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .projectdescrip {
     display: inline-block;
     clear: left;
-    margin:2%;   
     
+}
+
+.morework{
+    padding: 2% .9%;
+}
+
+.moreworktitles{
+	margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.indexworksmall{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
 /*?////////////////////// About Me //////////////////////////*/
 
 .aboutmemain{
-	margin-top: 180px;
-}
-
-.aboutmephoto{
-	display: inline-block;
-	text-align: center;
-	width: 100%;
+	padding-top: 125px;
 }
 
 .aboutmetitle{
-	display: inline-block;
-	padding-top: 0;
-
+    text-align: center;
+    font-size: 42pt;
+	padding: 0 3%;
 }
 
+.aboutmesubtitle{
+    text-align: center;
+    font-size: 26pt;
+	padding: 0 3%;
+    margin-bottom: 50px;
+}
+
+.aboutsmallheader {
+    padding: 0 3%;
+}
+    
 .aboutmetext{
-	display: inline-block;
+     padding: 0 3%;
 }
 
+.resumelink{
+     padding: 0 3%;
+}
+
+/*///////////////////Work///////////////////////*/
+
+.mainwork{
+    padding-top: 125px;
+}
+
+.worktitle{
+    text-align: center;
+    padding: 0 3%;
+}
+
+.projectimg{
+    width: 95%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workprojecttitle{
+	margin-top: 5%;
+    margin-bottom: 0;
+}
+
+
+/*///////////////////Contact Page///////////////////////*/
+
+.maincontactpage{
+    text-align: center;
+    padding-top: 125px;
+}
+
+.contactsplit{
+    text-align: center;
+    padding: 50px 1.5%;
+    text-align: center;
+}
+
+.emailheader{
+    text-align: center;
+    margin-right: 3%; 
+
+}
+
+
+/*///////////////////Post Layout///////////////////////*/
+
+.postdiv{
+    padding-top: 125px;
+}
+
+.postheaders{
+    padding: 25px 3% 0 3%;
+}
+
+.postsubtitle{
+    padding: 0 3%;
+    font-weight: 300;
+	font-size: 16pt;
+}
+
+.postimg{
+    width: 100%;
+}
+
+.postcontent{
+    padding: 0 3%;
+}
 
 /*//////////////////////  Footer  /////////////////////////*/
 
@@ -236,25 +399,31 @@ footer{
     width: 100%;
     margin-top:40px;
     
- -webkit-border-top: black 2px solid;
-	-moz-border-top: black 2px solid;
-		 border-top: black 2px solid;
+ -webkit-border-top: #222 1.5px solid;
+	-moz-border-top: #222 1.5px solid;
+		 border-top: #222 1.5px solid;
+    
 }
 
 .bottomnavmenu ul{
     height: 100px;
     width: 100%;
 	float: left;
-    display: block;
+    display: none;
     margin-top: 20px;
     margin-left: 2%;
     
 }
 
 .bottomnavmenu ul a {
-    width: 100%;
+    width: auto;
+    padding: 0 2%;
+    font-size: 12pt;
+    font-weight: 400;
     text-align: center;
 	float: none;
+    text-decoration: none;
+
 }
 
 .bottomnavmenu li{
@@ -262,11 +431,46 @@ footer{
 
 }
 
+.socialmediafooter {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
 
 @media (min-width: 700px){
+
+p {
+	padding 0;
+}
+
+h1 {
+	padding 0;
+}
+
+h2 {
+	padding 0;
+}
+
+h3 {
+	padding 0;
+}
+
+h4 {
+	padding 0;
+}
+
+h5 {
+	padding 0;
+}
+
+h6 {
+	padding 0;
+}
 
 
            /*///////////////////// Top Nav Bar Style ////////////////////*/
@@ -277,16 +481,17 @@ footer{
 	}
 
 	.toplinks {
-		font-size: 18px;
-	}
+		font-size: 16pt;
+        font-weight: 400;
+    }
 	
 	.navtop {
     width: 100%;
     height: 115px;
     
- -webkit-border-bottom: black 2px solid;
-	-moz-border-bottom: black 2px solid;
-		 border-bottom: black 2px solid;
+ -webkit-border-bottom: #222 1.5px solid;
+	-moz-border-bottom: #222 1.5px solid;
+		 border-bottom: #222 1.5px solid;
 }
 
 
@@ -363,16 +568,22 @@ footer{
 		padding: 0;
 
 	}
+    
+    .tabbottom {
+        display: none;
+    }
 	
            /*///////////////////   Main Body   //////////////////////*/
 
-    .latestworktitle{
-		font-family: sans-serif;
-		font-size: 20pt;
-	    padding: 0 35px 20px 0;
-	    margin-bottom:0px;
-	    display: inline-block;
-	    
+	.latestworktitle{
+         font-family: ;
+		 font-size: 20pt;
+	     padding: 0 35px 20px 0;
+	     margin-bottom:0px;
+	     display: inline-block;
+ -webkit-border-right: #222 1.5px solid;
+	-moz-border-right: #222 1.5px solid;
+		 border-right: #222 1.5px solid;
 	
 	}
 
@@ -382,33 +593,100 @@ footer{
 	}
 
 
-	.latestworktitle{
-		font-family: sans-serif;
-		font-size: 20pt;
-		padding: 0 35px 20px 0;
-		margin-bottom:0px;
-		display: inline-block;
-    
- -webkit-border-right: black 2px solid;
-	-moz-border-right: black 2px solid;
-		 border-right: black 2px solid;
-
-	}
-
 	.projectname{
     	display: inline-block;
 		padding-top: 30px;
 		width: 106%;
-		margin-bottom: 50px;
-    
-     -webkit-border-right: black 2px solid;
-	    -moz-border-right: black 2px solid;
-		     border-right: black 2px solid;
+		margin-bottom: 0;
+ -webkit-border-right: #222 1.5px solid;
+	-moz-border-right: #222 1.5px solid;
+		 border-right: #222 1.5px solid;
+
 	}
 
+    
+    .projectsub{
+        margin-bottom: 50px;
+    }
+    
+
+	/*////////////////// ABOUT ME /////////////////////////*/
+	
+	.aboutmetitle{
+    	padding: 0 1.5%;
+}
+
+	.aboutmesubtitle{
+		padding: 0 1.5%;
+        margin-bottom: 110px;
+}
+
+	.aboutsmallheader {
+		padding: 0;
+}
+
+	.aboutmetext{
+		padding: 0;
+}
+
+	.resumelink{
+		padding: 0%;
+}
+    
+    
+    /*///////////////////Work///////////////////////*/
+
+.mainwork{
+    padding-top: 150px;
+}
+
+.projectimg{
+    width: 100%;
+}
+    
+    
+    
+    
+    /*///////////////////Post Layout///////////////////////*/
 
 
+.postheaders{
+    padding: 25px 0 0 0;
+}
 
+.postsubtitle{
+    padding: 0;
+}
+
+
+.postcontent{
+    padding: 0;
+}
+    
+    /*/////////////////Footer/////////////////////////////*/
+    
+	.bottomnavmenu ul{
+	    height: 100px;
+	    width: 100%;
+		float: left;
+	    display: inline-block;
+	    margin-top: 20px;
+	    margin-left: 2%;
+	    
+	}
+    	
+	.bottomnavmenu ul a {
+	    width: auto;
+	    padding: 0 2%;
+	    text-align: center;
+		float: left;
+    }
+
+    .socialmediafooter {
+        margin-top: 10px;
+        display: block;
+        float: right;
+    }
 }
 
          /*///////////////////// End 700px Media ////////////////////*/
@@ -428,12 +706,9 @@ footer{
 	.navright{
     	width: 41%;
     	display: block!important;
-
-
 	}
 
 }
-
          /*///////////////////// End 925px Media ////////////////////*/
 
 @media (min-width: 1200px){
@@ -441,7 +716,7 @@ footer{
          /*///////////////////// Top Nav Bar Style ////////////////////*/
 
 	.toplinks {
-		font-size: 25px;
+        font-size: 16pt;
 	}
 	
 	.navleft{
@@ -468,18 +743,28 @@ footer{
 	.bottomnavmenu ul{
 	    height: 100px;
 	    width: 100%;
-		float: left;
-	    display: block;
+	    padding: 0 2%;
 	    margin-top: 20px;
 	    margin-left: 2%;
 	    
 	}
 	
 	.bottomnavmenu ul a {
-	    width: 25%;
 	    text-align: center;
 		float: left;
-	}
+    }
+    
+    .socialmediafooter {
+        margin-top: 10px;
+        display: inline-block;
+        float: right;
+    }
+    
 }
 
+
          /*///////////////////// End 1200px Media ////////////////////*/
+         
+p img.postimg{
+	padding: 0;
+}
