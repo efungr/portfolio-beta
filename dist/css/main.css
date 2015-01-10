@@ -346,6 +346,51 @@ article {
     margin-bottom: 0;
 }
 
+
+/*///////////////////Contact Page///////////////////////*/
+
+.maincontactpage{
+    text-align: center;
+    padding-top: 125px;
+}
+
+.contactsplit{
+    text-align: center;
+    padding: 50px 1.5%;
+    text-align: center;
+}
+
+.emailheader{
+    text-align: center;
+    margin-right: 3%; 
+
+}
+
+
+/*///////////////////Post Layout///////////////////////*/
+
+.postdiv{
+    padding-top: 125px;
+}
+
+.postheaders{
+    padding: 25px 3% 0 3%;
+}
+
+.postsubtitle{
+    padding: 0 3%;
+    font-weight: 300;
+	font-size: 16pt;
+}
+
+.postimg{
+    width: 100%;
+}
+
+.postcontent{
+    padding: 0 3%;
+}
+
 /*//////////////////////  Footer  /////////////////////////*/
 
 
@@ -393,48 +438,6 @@ footer{
 }
 
 
-/*///////////////////Post Layout///////////////////////*/
-
-.postdiv{
-    padding-top: 125px;
-}
-
-.postheaders{
-    padding: 25px 3% 0 3%;
-}
-
-.postsubtitle{
-    padding: 0 3%;
-    font-weight: 400;
-	font-size: 22pt;
-}
-
-.postimg{
-    width: 100%;
-}
-
-.postcontent{
-    padding: 0 3%;
-}
-
-/*///////////////////Contact Page///////////////////////*/
-
-.maincontactpage{
-    text-align: center;
-    padding-top: 125px;
-}
-
-.contactsplit{
-    text-align: center;
-    padding: 50px 1.5%;
-    text-align: center;
-}
-
-.emailheader{
-    text-align: center;
-    margin-right: 3%; 
-
-}
 
 /*///////////////////  Media Queries  ////////////////////////*/
 
@@ -684,12 +687,6 @@ h6 {
         display: block;
         float: right;
     }
-}
-
-/*///////////////////Post Layout///////////////////////*/
-
-
-.postheaders{
 }
 
          /*///////////////////// End 700px Media ////////////////////*/
