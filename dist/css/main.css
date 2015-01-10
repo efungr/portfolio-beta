@@ -400,10 +400,21 @@ footer{
 }
 
 .postheaders{
+    padding: 25px 3% 0 3%;
+}
+
+.postsubtitle{
+    padding: 0 3%;
+    font-weight: 400;
+	font-size: 22pt;
 }
 
 .postimg{
     width: 100%;
+}
+
+.postcontent{
+    padding: 0 3%;
 }
 
 /*///////////////////Contact Page///////////////////////*/
@@ -628,6 +639,25 @@ h6 {
 
 .projectimg{
     width: 100%;
+}
+    
+    
+    
+    
+    /*///////////////////Post Layout///////////////////////*/
+
+
+.postheaders{
+    padding: 25px 0 0 0;
+}
+
+.postsubtitle{
+    padding: 0;
+}
+
+
+.postcontent{
+    padding: 0;
 }
     
     /*/////////////////Footer/////////////////////////////*/
