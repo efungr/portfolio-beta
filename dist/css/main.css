@@ -312,12 +312,15 @@ article {
 }
 
 .aboutsmallheader {
+    padding: 0 3%;
 }
     
 .aboutmetext{
+     padding: 0 3%;
 }
 
 .resumelink{
+     padding: 0 3%;
 }
 
 /*///////////////////Work///////////////////////*/
@@ -596,7 +599,7 @@ h6 {
 	/*////////////////// ABOUT ME /////////////////////////*/
 	
 	.aboutmetitle{
-    	padding-left: 1.5%;
+    	padding: 0 1.5%;
 }
 
 	.aboutmesubtitle{
@@ -605,7 +608,7 @@ h6 {
 }
 
 	.aboutsmallheader {
-		padding-left: 0;
+		padding: 0;
 }
 
 	.aboutmetext{
