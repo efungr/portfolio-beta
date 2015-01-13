@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "ATYPI Seattle 2013"
-subtitle: "Logo - Student Work"
+title: "2013 ATYPI Seattle"
+subtitle: "Branding, Student Work"
 image: "/portfolio/img/atypilogo01.jpg"
-smimage: "/portfolio/img/ducks02sm.jpg"
+smimage: "/portfolio/img/atypilogo01sm.jpg"
 additionimage: "/portfolio/img/atypilogo02.jpg" 
 additionimage: "/portfolio/img/atypilogo03.jpg" 
 additionimage: "/portfolio/img/atypilogo04.jpg" 
