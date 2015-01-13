@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Project Title1"
-subtitle: "Type of Project1"
+title: "ATYPI Seattle 2013"
+subtitle: "Logo - Student Work"
 image: "/portfolio/img/atypilogo01.jpg"
 smimage: "/portfolio/img/ducks02sm.jpg"
 additionimage: "/portfolio/img/atypilogo02.jpg" 
